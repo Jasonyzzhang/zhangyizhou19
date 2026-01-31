@@ -1,3 +1,7 @@
+design:
+  theme: classic
+  date_style: month_abbreviation_year
+
 cv:
   name: "Yizhou Zhang"
   email: "yzhang8@caltech.edu"
