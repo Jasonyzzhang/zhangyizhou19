@@ -10,11 +10,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Annenberg 231</p>
-    <p>California Institute of Technology</p>
+    <p>Caltech</p>
     <p>Pasadena, CA 91125</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
