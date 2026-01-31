@@ -6,7 +6,7 @@ subtitle: PhD student in Computing + Mathematical Sciences at Caltech
 
 profile:
   align: right
-  image: 61498323
+  image: 61498323.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ANB 231</p>
