@@ -1,24 +1,25 @@
-cv:
-  name: "Yizhou Zhang"
-  location: "Pasadena, CA"
-  email: "yzhang8 AT caltech DOT edu"
-  summary:
-    - "PhD student at Caltech interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically."
-  # Education Section
-education:
-  - institution: "California Institute of Technology"
-    major: "Computing and Mathematical Sciences" # Some versions use 'area' or 'major'
-    degree: "PhD"
-    location: "Pasadena, CA"
-    time: "2023 - Present" # Use 'time' or 'year'
-    description: 
-      - "Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar"
+cv: # Level 1: The template looks for 'site.data.cv.cv'
+  cv: # Level 2: This is the second '.cv' in the code
+    name: "Yizhou Zhang"
+    email: "yzhang8@caltech.edu"
+    location: 
+      city: "Pasadena"
+      region: "CA"
+    summary: "I am interested in solving decision-making problems..."
 
-# Experience Section
-experience:
-  - title: "Visiting Undergraduate Researcher" # Use 'title' or 'role'
-    company: "California Institute of Technology"
-    location: "Pasadena, CA"
-    time: "2022-02 - 2022-08"
-    description:
-      - "Attended the Visiting Undergraduate Research Program (VURP) working with Prof. Adam Wierman."
+    sections: # The template then loops through cv.sections
+      Education: # Must be capitalized to match the 'if' statements
+        - institution: "California Institute of Technology"
+          area: "PhD in Computing and Mathematical Sciences"
+          start_date: "2023-09"
+          end_date: "present"
+          highlights:
+            - "Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar"
+            
+      Experience: # This will be combined with 'Volunteer' automatically
+        - company: "California Institute of Technology"
+          position: "Visiting Undergraduate Researcher"
+          start_date: "2022-02"
+          end_date: "2022-08"
+          highlights:
+            - "Worked with Prof. Adam Wierman on VURP."
