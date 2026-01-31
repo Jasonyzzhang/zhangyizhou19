@@ -197,7 +197,7 @@ exclude:
   - _pages/profiles.md
   - _posts/
   - _projects/?_project.md
-
+  - _pages/dropdown.md
   - assets/jupyter/blog.ipynb
   - CONTRIBUTING.md
   - CUSTOMIZE.md
