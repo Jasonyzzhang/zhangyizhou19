@@ -1,36 +1,30 @@
 cv:
   name: "Yizhou Zhang"
   location: "Pasadena, CA"
-  email: "yzhang8@caltech.edu"
-  social_networks:
-    - network: LinkedIn
-      username: "yizhou-zhang"
-    - network: Google Scholar
-      username: "Yizhou Zhang"
-  sections:
-    summary:
-      - "I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency."
-    education:
-      - institution: "California Institute of Technology"
-        area: "PhD in Computing and Mathematical Sciences"
-        start_date: "2023-09"
-        end_date: "Present"
-        highlights:
-          - "Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar"
-      - institution: "Tsinghua University"
-        area: "B.Eng in Computer Science (Yao Class)"
-        start_date: "2019-08"
-        end_date: "2023-06"
-    experience:
-      - company: "California Institute of Technology"
-        position: "Visiting Undergraduate Researcher"
-        start_date: "2022-02"
-        end_date: "2022-08"
-        highlights:
-          - "Attended the Visiting Undergraduate Research Program (VURP) working with Prof. Adam Wierman."
-      - company: "Shanghai Qizhi Institute"
-        position: "Research Intern"
-        start_date: "2021-06"
-        end_date: "2021-08"
-        highlights:
-          - "Research Intern on Platform Economics: Design, Optimization and Regulation under Prof. Zhixuan Fang."
+  email: "yzhang8 AT caltech DOT edu"
+  summary:
+    - "PhD student at Caltech interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically."
+  education:
+    - institution: "California Institute of Technology"
+      area: "PhD in Computing and Mathematical Sciences"
+      start_date: "2023-09"
+      end_date: "Present"
+      highlights:
+        - "Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar"
+    - institution: "Tsinghua University"
+      area: "B.Eng in Computer Science (Yao Class)"
+      start_date: "2019-08"
+      end_date: "2023-06"
+  experience:
+    - company: "California Institute of Technology"
+      position: "Visiting Undergraduate Researcher"
+      start_date: "2022-02"
+      end_date: "2022-08"
+      highlights:
+        - "Attended the Visiting Undergraduate Research Program (VURP) working with Prof. Adam Wierman."
+    - company: "Shanghai Qizhi Institute"
+      position: "Research Intern"
+      start_date: "2021-06"
+      end_date: "2021-08"
+      highlights:
+        - "Research Intern on Platform Economics: Design, Optimization and Regulation under Prof. Zhixuan Fang."
