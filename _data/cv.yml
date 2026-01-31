@@ -1,8 +1,3 @@
-design:
-  theme: classic
-  options:
-    show_timespan: true
-
 cv:
   name: "Yizhou Zhang"
   email: "yzhang8@caltech.edu"

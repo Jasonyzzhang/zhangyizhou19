@@ -18,10 +18,19 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% comment %} 
+              Using Jekyll's date filter to handle YYYY-MM. 
+              %b is short month (e.g., Feb), %Y is year (2022).
+            {% endcomment %}
+            {% assign startDateFormatted = start_date | date: "%b %Y" %}
+            
+            {% if end_date == 'present' or end_date == '' or end_date == nil %}
+              {% assign endDateFormatted = 'Present' %}
+            {% else %}
+              {% assign endDateFormatted = end_date | date: "%b %Y" %}
+            {% endif %}
+
+            {% assign date = startDateFormatted | append: ' - ' | append: endDateFormatted %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
