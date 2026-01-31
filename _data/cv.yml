@@ -5,8 +5,7 @@ cv:
   address:
     city: "Pasadena"
     region: "CA"
-  summary: |
-    I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency.
+  summary: I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency.
 
   sections:
     Education:
