@@ -1,7 +1,7 @@
 cv:
   [cite_start]name: Yizhou Zhang [cite: 1]
   [cite_start]location: Pasadena, CA [cite: 2]
-  [cite_start]phone: +1 6263162381 [cite: 2]
+  [cite_start]phone: (626) 316-2381 [cite: 2]
   [cite_start]email: yzhang8@caltech.edu [cite: 3]
   social_networks:
     - network: LinkedIn
@@ -10,69 +10,28 @@ cv:
       username: Yizhou Zhang
   sections:
     summary:
-      - [cite_start]I am a PhD student interested in solving multi-agent decision-making problems using modern machine learning techniques[cite: 5, 13]. [cite_start]My research focuses on game theory, robust RL, generative AI, and the social aspects of AI, including privacy and safety[cite: 7, 8, 9, 10].
+      - [cite_start]I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. [cite: 5] [cite_start]My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency. [cite: 7, 8, 9]
     education:
       - [cite_start]institution: California Institute of Technology [cite: 12]
         [cite_start]area: PhD in Computing and Mathematical Sciences [cite: 13]
-        [cite_start]degree: PhD [cite: 13]
         [cite_start]start_date: 2023-09 [cite: 19]
         [cite_start]end_date: present [cite: 19]
         highlights:
           - [cite_start]"Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar" [cite: 14]
       - [cite_start]institution: Tsinghua University [cite: 15]
-        [cite_start]area: Computer Science (Yao Class) [cite: 16]
-        [cite_start]degree: B.Eng [cite: 16]
+        [cite_start]area: B.Eng in Computer Science (Yao Class) [cite: 16]
         [cite_start]start_date: 2019-08 [cite: 20]
         [cite_start]end_date: 2023-06 [cite: 20]
-        highlights:
-          - [cite_start]"GPA: 3.85/4.0" [cite: 17]
     experience:
       - [cite_start]company: California Institute of Technology [cite: 21]
-        [cite_start]position: Visiting Undergraduate Researcher (VURP) [cite: 24]
+        [cite_start]position: Visiting Undergraduate Researcher [cite: 24]
         [cite_start]start_date: 2022-02 [cite: 22]
         [cite_start]end_date: 2022-08 [cite: 22]
         highlights:
-          - [cite_start]Worked with Prof. Adam Wierman on networked MARL with local information[cite: 24, 71].
+          - [cite_start]Attended the Visiting Undergraduate Research Program (VURP) working with Prof. Adam Wierman. [cite: 24]
       - [cite_start]company: Shanghai Qizhi Institute [cite: 25]
         [cite_start]position: Research Intern [cite: 27]
         [cite_start]start_date: 2021-06 [cite: 26]
         [cite_start]end_date: 2021-08 [cite: 26]
         highlights:
-          - [cite_start]Focused on Platform Economics: Design, Optimization and Regulation under Prof. Zhixuan Fang[cite: 27].
-    publications:
-      - [cite_start]title: "Provably Convergent Actor-Critic in Risk-averse MARL" [cite: 29]
-        [cite_start]authors: ["Yizhou Zhang", "Eric Mazumdar"] [cite: 30]
-        [cite_start]journal: In submission [cite: 31]
-      - [cite_start]title: "Training Generalizable Collaborative Agents via Strategic Risk Aversion" [cite: 32]
-        [cite_start]authors: ["Chengrui Qu", "Yizhou Zhang", "Nicola Lanzetti", "Eric Mazumdar"] [cite: 32]
-        [cite_start]journal: In submission [cite: 33]
-      - [cite_start]title: "KL-regularization Itself is Differentially Private in Bandits and RLHF" [cite: 34]
-        [cite_start]authors: ["Yizhou Zhang", "Kishan Panaganti", "Laixi Shi", "Juba Ziani", "Adam Wierman"] [cite: 35]
-        [cite_start]journal: In submission [cite: 36]
-      - [cite_start]title: "Convergent Q-Learning for Infinite-Horizon General-Sum Markov Games through Behavioral Economics" [cite: 37, 38]
-        [cite_start]authors: ["Yizhou Zhang", "Eric Mazumdar"] [cite: 39]
-        [cite_start]journal: Proceedings of the 64th IEEE Conference on Decision and Control (CDC) [cite: 40]
-        year: 2025
-      - [cite_start]title: "Learning to Steer Learners in Games" [cite: 41]
-        [cite_start]authors: ["Yizhou Zhang", "Yian Ma", "Eric Mazumdar"] [cite: 42]
-        [cite_start]journal: Proceedings of the 42nd International Conference on Machine Learning (ICML) [cite: 43]
-        year: 2025
-      - [cite_start]title: "Global Convergence of Localized Policy Iteration in Networked Multi-Agent Reinforcement Learning" [cite: 44]
-        [cite_start]authors: ["Yizhou Zhang*", "Guannan Qu*", "Pan Xu*", "Yiheng Lin", "Zaiwei Chen", "Adam Wierman"] [cite: 45]
-        [cite_start]journal: Proceedings of the ACM on Measurement and Analysis of Computing Systems [cite: 46]
-        year: 2023
-    projects:
-      - [cite_start]name: Multi-Agent RL through Behavioral Economics [cite: 48]
-        [cite_start]start_date: 2024-11 [cite: 51]
-        [cite_start]end_date: 2026-01 [cite: 51]
-        highlights:
-          - [cite_start]Incorporated risk-aversion and bounded rationality into Q-learning for general-sum Markov games[cite: 52].
-          - [cite_start]Developed a scalable risk-averse actor-critic for general-sum MARL[cite: 54].
-    skills:
-      - label: Programming
-        [cite_start]details: Python, C/C++, MATLAB, LaTeX [cite: 93]
-      - label: Languages
-        [cite_start]details: Chinese (Native), English (TOEFL 111, GRE 330) [cite: 94]
-    service:
-      - [cite_start]item: "Reviewer: TMLR, ICML (2026), CDC (2025), AISTATS (2026), SIGMETRICS (2026), L4DC (2026), TOMM" [cite: 88, 89, 90]
-      - [cite_start]item: "Organizer: 2025-2026 RSRG/FALCON weekly seminar, Caltech" [cite: 91]
+          - [cite_start]Research Intern on Platform Economics: Design, Optimization and Regulation under Prof. Zhixuan Fang. [cite: 27]
