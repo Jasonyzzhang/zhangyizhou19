@@ -1,6 +1,7 @@
 design:
   theme: classic
-  date_style: month_abbreviation_year
+  options:
+    show_timespan: true
 
 cv:
   name: "Yizhou Zhang"
