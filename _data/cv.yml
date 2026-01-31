@@ -9,7 +9,7 @@ cv:
     I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency.
 
   sections:
-    Education: # Now below Experience
+    Education:
       - institution: "California Institute of Technology"
         area: "PhD in Computing and Mathematical Sciences"
         location: "Pasadena, CA" # Added location
@@ -22,19 +22,3 @@ cv:
         location: "Beijing, China" # Added location
         start_date: "2019-08"
         end_date: "2023-06"
-
-    Experience: # Now at the top
-      - company: "California Institute of Technology"
-        position: "Visiting Undergraduate Researcher"
-        location: "Pasadena, CA" # Added location
-        start_date: "2022-02"
-        end_date: "2022-08"
-        highlights:
-          - "Attended the Visiting Undergraduate Research Program (VURP) working with Prof. Adam Wierman."
-      - company: "Shanghai Qizhi Institute"
-        position: "Research Intern"
-        location: "Shanghai, China" # Added location
-        start_date: "2021-06"
-        end_date: "2021-08"
-        highlights:
-          - "Research Intern on Platform Economics: Design, Optimization and Regulation under Prof. Zhixuan Fang."
