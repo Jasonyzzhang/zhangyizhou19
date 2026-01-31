@@ -9,7 +9,7 @@ profile:
   image: photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>ANB 231</p>
+    <p>Annenberg 231</p>
     <p>California Institute of Technology</p>
     <p>Pasadena, CA 91125</p>
 
