@@ -5,20 +5,19 @@ cv:
   address:
     city: "Pasadena"
     region: "CA"
-  summary: |
-    I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency.
+  summary: I am interested in solving decision-making problems in the multi-agent world with modern machine learning techniques, both theoretically and practically. My research focuses on strategic learning through game theory, robust decision making via RL and control, and leveraging generative AI for data efficiency.
 
   sections:
     Education:
       - institution: "California Institute of Technology"
         area: "PhD in Computing and Mathematical Sciences"
-        location: "Pasadena, CA" # Added location
+        location: "Pasadena, CA"
         start_date: "2023-09"
         end_date: "Present"
         highlights:
           - "Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar"
       - institution: "Tsinghua University"
         area: "B.Eng in Computer Science (Yao Class)"
-        location: "Beijing, China" # Added location
+        location: "Beijing, China"
         start_date: "2019-08"
         end_date: "2023-06"
