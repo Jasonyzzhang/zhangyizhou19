@@ -2,8 +2,24 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"CDC":
+  url: https://cdc2025.ieeecss.org
+  color: "#00629b"
+
+"ICML":
+  url: https://icml.cc
+  color: "#4b2e83"
+
 "PhysRev":
   url: https://journals.aps.org/
 
+"POMACS":
+  url: https://dl.acm.org/journal/pomacs
+  color: "#008f68"
+
 "Vision":
   color: "#009f36"
+
+"arXiv":
+  url: https://arxiv.org
+  color: "#b31b1b"

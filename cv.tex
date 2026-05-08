@@ -1,0 +1,212 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\definecolor{LinkBlue}{RGB}{0,51,102}
+\definecolor{SpotlightRed}{RGB}{180,30,30}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=LinkBlue,
+  linkcolor=LinkBlue,
+  citecolor=LinkBlue
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagenumbering{gobble}
+
+% ---------- Simple CV helpers ----------
+\newcommand{\CVName}[1]{{\Huge\bfseries #1}}
+\newcommand{\CVLine}[1]{{\small #1}}
+
+% Your name for publication lists (bolded).
+\newcommand{\Me}{\textbf{Yizhou Zhang}}
+
+\newcommand{\Section}[1]{%
+  \vspace{0.9\baselineskip}%
+  {\large\bfseries\scshape #1}\\[-0.35\baselineskip]
+  \rule{\linewidth}{0.4pt}\vspace{0.35\baselineskip}%
+}
+
+\newcommand{\Entry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    {\textbf{#1}} & {\textit{#2}}\\
+    {\textit{#3}} & {\textit{#4}}\\
+  \end{tabularx}
+}
+
+% A bullet list with tighter spacing (via enumitem).
+\newlist{BulletList}{itemize}{1}
+\setlist[BulletList]{leftmargin=*, nosep, topsep=0.15\baselineskip}
+
+% Legacy-style CV list (no bullets), matching older CV formatting.
+\newlist{list2}{itemize}{1}
+\setlist[list2]{leftmargin=1.5em, label={}, nosep, topsep=0pt}
+
+% Publication list (numbered, compact).
+\newlist{publist}{enumerate}{1}
+\setlist[publist]{leftmargin=1.5em, label={[\arabic*]}, itemsep=0.25\baselineskip, topsep=0pt}
+
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+  \CVName{Yizhou Zhang}\\[0.25\baselineskip]
+  \CVLine{Pasadena, CA, 91125 \;\textbullet\; +1 (626)~316--2381}\;\textbullet\; \href{mailto:yzhang8@caltech.edu}{yzhang8@caltech.edu} \\
+  \CVLine{\href{https://zhangyizhou19.com}{Personal Webpage} \;\textbullet\; \href{https://www.linkedin.com/in/yizhou-zhang-749a78230/$0}{LinkedIn}\;\textbullet\; \href{https://scholar.google.com/citations?user=ARr_mnwAAAAJ&hl=en}{Google Scholar} }
+\end{center}
+
+% ---------- Research Interests ----------
+\Section{Research Interests}
+I am interested in solving \textbf{decision-making} problems in the \textbf{multi-agent} world with modern \textbf{machine learning} techniques, both theoretically and practically. In particular, my research focuses on the following (and related) fields:
+
+\begin{itemize}
+  \item[$\diamond$] Strategic learning and decision making through \textbf{game theory};
+  \item[$\diamond$] Robust decision making against uncertainty through \textbf{RL} and \textbf{control};
+  \item[$\diamond$] Leveraging \textbf{generative AI} towards data-efficient decision making;
+  \item[$\diamond$] Social aspects of decision making: \textbf{economics, privacy, and safety}.
+\end{itemize}
+
+% ---------- Education ----------
+\Section{Education}
+
+{\bf California Institute of Technology} {\hfill \bf Sep. 2023 -- Present}
+\begin{list2}
+\item[] PhD in Computing and Mathematical Sciences
+\item[] Department of Computing and Mathematical Sciences
+\item[] Advisors: Prof. Adam Wierman and Prof. Eric Mazumdar.
+\end{list2}
+
+{\bf Tsinghua University} {\hfill \bf Aug. 2019 -- Jun. 2023}
+\begin{list2}
+\item[] B.Eng in Computer Science (Yao Class) 
+\item[] Institute for Interdisciplinary Information Sciences
+\item[] GPA: 3.85/4.0
+\end{list2}
+
+
+
+% ---------- Experiences ----------
+\Section{Experiences}
+{\bf California Institute of Technology} {\hfill \bf Feb. 2022 -- Aug. 2022}
+\begin{list2}
+\item[] Department of Computing and Mathematical Sciences
+\item[] Visiting student, attended the Visiting Undergraduate Research Program (VURP).
+\item[] Worked with Prof. Adam Wierman.
+\end{list2}
+
+{\bf Shanghai Qi Zhi Institute} {\hfill \bf Jun. 2021 -- Aug. 2021}
+\begin{list2}
+\item[] Research Intern on Platform Economics: Design, Optimization and Regulation.
+\item[] Advisor: Prof. Zhixuan Fang
+\end{list2}
+
+
+
+% ---------- Publications ----------
+\Section{Publications and Manuscripts}
+{\fontsize{8}{8.8}\selectfont * indicates equal contribution.\par}
+\begin{publist}
+\item \textbf{Finite-Sample Convergence in Networked Average Reward MARL: Decentralization Pitfalls and Entropy Remedies}.\\
+\Me*, Yashaswini Murthy*, Laixi Shi and Adam Wierman.\\
+\textit{In submission}.
+
+\item \textbf{Provably Convergent Actor-Critic in Risk-averse MARL} \href{https://arxiv.org/abs/2602.12386}{(link)} {\textcolor{SpotlightRed}{(Spotlight, 2.2\%)}}.\\
+\Me \ and Eric Mazumdar.\\
+\textit{Proceedings of the 43rd International Conference on Machine Learning (ICML)}, 2026.
+
+\item \textbf{Training Generalizable Collaborative Agents via Strategic Risk Aversion} \href{http://arxiv.org/abs/2602.21515}{(link)}.\\
+Chengrui Qu, \Me, Nicola Lanzetti and Eric Mazumdar.\\
+\textit{In submission}.
+
+\item \textbf{KL-regularization Itself is Differentially Private in Bandits and RLHF} \href{https://www.arxiv.org/abs/2505.18407}{(link)}.\\
+\Me, Kishan Panaganti, Laixi Shi, Juba Ziani and Adam Wierman.\\
+\textit{In submission}.
+
+\item \textbf{Convergent Q-Learning for Infinite-Horizon General-Sum Markov Games through Behavioral Economics} \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11312619}{(link)}.\\
+\Me \ and Eric Mazumdar.\\
+\textit{Proceedings of the 64th IEEE Conference on Decision and Control (CDC)}, 2025.
+
+\item \textbf{Learning to Steer Learners in Games} \href{https://arxiv.org/abs/2502.20770}{(link)}.\\
+\Me, Yian Ma and Eric Mazumdar.\\
+\textit{Proceedings of the 42nd International Conference on Machine Learning (ICML)}, 2025.
+
+\item \textbf{Global Convergence of Localized Policy Iteration in Networked Multi-Agent Reinforcement Learning} \href{https://dl.acm.org/doi/10.1145/3579443}{(link)}.\\
+\Me*, Guannan Qu*, Pan Xu*, Yiheng Lin, Zaiwei Chen and Adam Wierman.\\
+\textit{Proceedings of the ACM on Measurement and Analysis of Computing Systems}, 2023.
+\end{publist}
+
+% ---------- Research Experience ----------
+\Section{Selected Research Projects}
+\begin{list2}
+\item[] {\bf Multi-Agent RL through Behavioral Economics} {\hfill \bf Nov. 2024 -- Jan. 2026}\\
+with Eric Mazumdar, Caltech\\
+also with Chengrui Qu and Nicolas Lanzetti, Caltech\\
+Incorporated risk-aversion and bounded rationality from human decision-making to Q-learning in infinite-horizon general-sum Markov games. We proved that under the monotonicity assumption of the underlying game, the solution concept of risk-averse quantal-response equilibrium (RQE) is unique, and can be computed through provably convergent Q-learning or Actor-Critic algorithms in discounted infinite-horizon Markov games. Based on this, we developed a scalable risk-averse actor-critic for general-sum MARL that empirically provides better convergence.
+
+\item[] {\bf Inherent differential privacy of KL-regularization} {\hfill \bf Nov. 2024 -- Present}\\
+with Kishan Panaganti, Tencent; Laixi Shi, Johns Hopkins;\\
+Juba Ziani, Georgia Tech and Adam Wierman, Caltech. \\
+While guaranteeing DP generally requires explicitly injecting noise either to the algorithm itself or to its outputs, the intrinsic randomness of existing algorithms presents an opportunity to achieve DP ``for free''. We explored regularization in achieving DP across three different offline decision-making problems: multi-armed bandits, linear contextual bandits, and reinforcement learning from human feedback (RLHF). We show that adding KL-regularization to the learning objective (a common approach in optimization algorithms) makes the action sampled from the resulting stochastic policy itself differentially private.
+
+\item[] {\bf Learning to Steer Learners in Games} {\hfill \bf Dec. 2023 -- Jan. 2025}\\
+with Eric Mazumdar, Caltech and Yian Ma, UC San Diego\\
+Studied whether a no-regret learner can be exploited in a repeated general-sum bimatrix game such that its opponent can achieve Stackelberg value even without the knowledge of the payoff matrix of the learner. We first showed that this is impossible in general if the optimizer only knows that the learner is using a no-regret algorithm. We then reduced the problem for the optimizer to that of recovering the learner's payoff structure. We demonstrated the effectiveness of this approach by analyzing two examples: one where the learner uses an ascent algorithm, and another where the learner uses stochastic mirror ascent.
+
+\item[] {\bf Networked MARL with Local Information} {\hfill \bf Feb. 2022 -- Sept. 2022}\\
+Supervisor: Adam Wierman, Caltech\\
+Studied a multi-agent reinforcement learning problem on a network of agents where each agent cooperatively maximizes the average of their entropy-regularized long-term rewards. We showed that even if the policy of each agent is restricted to its $\kappa$-hop neighborhood, there is a bounded performance gap between that policy and the globally optimal policy. We proposed a novel policy iteration algorithm for each agent which only uses the information inside its $\kappa$-hop neighborhood and proved its convergence to a near-globally-optimal policy.
+\end{list2}
+
+% ---------- Teaching ----------
+% \Section{Teaching}
+% \begin{list2}
+% \item[] (Add TA/instructor roles here.)
+% \end{list2}
+
+% ---------- Honors \& Awards ----------
+% \Section{Honors \& Awards}
+% \begin{list2}
+% \item[] (Add awards/fellowships here.)
+% \end{list2}
+
+% ---------- Talks ----------
+\Section{Talks}
+\begin{list2}
+\item[] \textbf{Convergent Equilibrium Learning through Risk-aversion}. \\
+\textit{CSIS seminar, Caltech}, Pasadena, CA. {\hfill \bf Apr. 2026}
+\item[] \textbf{Convergent Q-learning in Discounted Markov Games}. \\
+\textit{64th IEEE Conference on Decision and Control (CDC)}, Rio de Janeiro, Brazil. {\hfill \bf Dec. 2025}
+\item[] \textbf{Convergent Q-learning in Discounted Markov Games}. \\
+\textit{64th IEEE CDC Workshop: Game Theory Meets MPC: Advances in Multi-Agent Control}, Rio de Janeiro, Brazil. {\hfill \bf Dec. 2025}
+\item[] \textbf{Learning to Steer Learners in Games}. \\
+\textit{RSRG/FALCON weekly seminar, Caltech}, Pasadena, CA. {\hfill \bf Jul. 2025}
+\item[] \textbf{Learning to Steer Learners in Games}. \\
+\textit{AIX: Academia-Industry X Workshop, Caltech}, Pasadena, CA. {\hfill \bf Jul. 2025}
+\end{list2}
+
+
+% ---------- Service ----------
+\Section{Service}
+\begin{list2}
+\item[] \textbf{Reviewer:} \textit{Transactions on Machine Learning Research (TMLR)}; \textit{International Conference on Machine Learning (ICML)} (2026); \textit{Conference on Neural Information Processing Systems (NeurIPS)} (2026) \textit{IEEE Conference on Decision and Control (CDC)} (2025); \textit{International Conference on Artificial Intelligence and Statistics (AISTATS)} (2026); \textit{ACM SIGMETRICS} (2026); \textit{Learning for Dynamics and Control (L4DC)} (2026); and \textit{ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)}.
+\item[] \textbf{Organizer:} 2025-2026 RSRG/FALCON weekly seminar, Caltech.
+\end{list2}
+
+% ---------- Skills ----------
+\Section{Skills}
+\begin{list2}
+\item[] \textbf{Programming:} Python, C/C++, MATLAB, \LaTeX\\
+\item[] \textbf{Languages:} Chinese (Native); English (TOEFL iBT 111; GRE 330).
+\end{list2}
+
+\end{document}

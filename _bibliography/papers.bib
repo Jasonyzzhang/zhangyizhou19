@@ -1,53 +1,63 @@
 ---
 ---
 
-@INPROCEEDINGS{11312619,
-      author={Zhang, Yizhou and Mazumdar, Eric},
-      booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)}, 
-      title={Convergent Q-Learning for Infinite-Horizon General-Sum Markov Games through Behavioral Economics}, 
-      year={2025},
-      volume={},
-      number={},
-      pages={5899-5904},
-      keywords={Q-learning;Decision making;Games;Nash equilibrium;Behavioral economics;Convergence},
-      doi={10.1109/CDC57313.2025.11312619}}
-
-
-@misc{zhang2025klregularizationdifferentiallyprivatebandits,
-      title={KL-regularization Itself is Differentially Private in Bandits and RLHF}, 
-      author={Yizhou Zhang and Kishan Panaganti and Laixi Shi and Juba Ziani and Adam Wierman},
-      year={2025},
-      eprint={2505.18407},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.18407}, 
+@inproceedings{zhang2026provably,
+  abbr = {ICML},
+  title = {Provably Convergent Actor-Critic in Risk-averse MARL},
+  author = {Zhang, Yizhou and Mazumdar, Eric},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year = {2026},
+  arxiv = {2602.12386},
+  additional_info = {, Spotlight (2.2\%)}
 }
 
+@misc{qu2026training,
+  abbr = {arXiv},
+  title = {Training Generalizable Collaborative Agents via Strategic Risk Aversion},
+  author = {Qu, Chengrui and Zhang, Yizhou and Lanzetti, Nicola and Mazumdar, Eric},
+  year = {2026},
+  arxiv = {2602.21515},
+  additional_info = {In submission}
+}
 
-@misc{zhang2025learningsteerlearnersgames,
-      title={Learning to Steer Learners in Games}, 
-      author={Yizhou Zhang and Yi-An Ma and Eric Mazumdar},
-      year={2025},
-      eprint={2502.20770},
-      archivePrefix={arXiv},
-      primaryClass={cs.GT},
-      url={https://arxiv.org/abs/2502.20770},}
+@misc{zhang2025klregularization,
+  abbr = {arXiv},
+  title = {KL-regularization Itself is Differentially Private in Bandits and RLHF},
+  author = {Zhang, Yizhou and Panaganti, Kishan and Shi, Laixi and Ziani, Juba and Wierman, Adam},
+  year = {2025},
+  arxiv = {2505.18407},
+  additional_info = {In submission}
+}
 
-@article{10.1145/3579443, 
-      author = {Zhang, Yizhou and Qu, Guannan and Xu, Pan and Lin, Yiheng and Chen, Zaiwei and Wierman, Adam}, 
-      title = {Global Convergence of Localized Policy Iteration in Networked Multi-Agent Reinforcement Learning}, 
-      year = {2023}, 
-      issue_date = {March 2023}, 
-      publisher = {Association for Computing Machinery}, 
-      address = {New York, NY, USA}, 
-      volume = {7}, 
-      number = {1}, 
-      url = {https://doi.org/10.1145/3579443}, 
-      doi = {10.1145/3579443}, 
-      abstract = {We study a multi-agent reinforcement learning (MARL) problem where the agents interact over a given network. The goal of the agents is to cooperatively maximize the average of their entropy-regularized long-term rewards. To overcome the curse of dimensionality and to reduce communication, we propose a Localized Policy Iteration (LPI) algorithm that provably learns a near-globally-optimal policy using only local information. In particular, we show that, despite restricting each agent's attention to only its κ-hop neighborhood, the agents are able to learn a policy with an optimality gap that decays polynomially in κ. In addition, we show the finite-sample convergence of LPI to the global optimal policy, which explicitly captures the trade-off between optimality and computational complexity in choosing κ. Numerical simulations demonstrate the effectiveness of LPI.}, 
-      journal = {Proc. ACM Meas. Anal. Comput. Syst.}, 
-      month = mar, 
-      articleno = {13}, 
-      numpages = {51}, 
-      keywords = {distributed algorithms, machine learning, multi-agent reinforcement learning, networked systems}}
+@inproceedings{zhang2025convergent,
+  abbr = {CDC},
+  title = {Convergent Q-Learning for Infinite-Horizon General-Sum Markov Games through Behavioral Economics},
+  author = {Zhang, Yizhou and Mazumdar, Eric},
+  booktitle = {Proceedings of the 64th IEEE Conference on Decision and Control (CDC)},
+  year = {2025},
+  pages = {5899--5904},
+  doi = {10.1109/CDC57313.2025.11312619},
+  html = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11312619}
+}
 
+@inproceedings{zhang2025learning,
+  abbr = {ICML},
+  title = {Learning to Steer Learners in Games},
+  author = {Zhang, Yizhou and Ma, Yian and Mazumdar, Eric},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  year = {2025},
+  arxiv = {2502.20770}
+}
+
+@article{zhang2023global,
+  abbr = {POMACS},
+  title = {Global Convergence of Localized Policy Iteration in Networked Multi-Agent Reinforcement Learning},
+  author = {Zhang*, Yizhou and Qu*, Guannan and Xu*, Pan and Lin, Yiheng and Chen, Zaiwei and Wierman, Adam},
+  journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  year = {2023},
+  volume = {7},
+  number = {1},
+  articleno = {13},
+  numpages = {51},
+  doi = {10.1145/3579443}
+}
