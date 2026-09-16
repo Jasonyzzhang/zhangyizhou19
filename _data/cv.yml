@@ -10,10 +10,11 @@ cv:
     Experience:
       - company: "Waymo"
         position: "Software Engineer Intern, Planner Team"
+        location: "Mountain View, CA"
         start_date: "2026-06"
         end_date: "2026-09"
         highlights:
-          - "Worked on reinforcement learning for planner selection."
+          - "Worked on closed-loop reinforcement learning for planner selection"
       - company: "California Institute of Technology"
         position: "Visiting Undergraduate Researcher"
         location: "Pasadena, CA"
