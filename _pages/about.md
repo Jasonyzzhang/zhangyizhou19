@@ -31,8 +31,6 @@ I am a PhD student in [Computing and Mathematical Sciences](https://www.cms.calt
 
 My recent work explores how to design provably convergent learning dynamics for general-sum Markov games, how risk-aware actor-critic methods shape strategic behavior, and how intrinsic regularization (e.g., KL terms) can deliver differential privacy in bandits and RLHF without explicit noise injection. I am broadly interested in decision-making at the intersection of economics, safety, and generative models for data-efficient policy learning.
 
-**September 24, 2026:** Two papers accepted to NeurIPS 2026, including **Training Generalizable Collaborative Agents via Strategic Risk Aversion (Oral, 0.4%)** and **Finite-Sample Convergence in Networked Average Reward MARL: Decentralization Pitfalls and Entropy Remedies**. See my [publications]({{ '/publications/' | relative_url }}) for details.
-
 Previously, I earned my B.Eng in Computer Science ([Yao Class](https://iiis.tsinghua.edu.cn/)) from [Tsinghua University](https://www.tsinghua.edu.cn/). I spent time as a visiting undergrad student at Caltech through the [Visiting Undergraduate Research Program (VURP)](https://sfp.caltech.edu/undergraduate-research/programs/visiting-undergraduate-research-program) and as a research intern at the [Shanghai Qi Zhi Institute](https://www.sqz.ac.cn/) working on platform economics.
 
 When I am not coding, reading papers or proving convergence guarantees, I enjoy working out in the gym, playing basketball, cooking and listening to music.
